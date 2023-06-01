@@ -94,6 +94,10 @@ header .img-arrow {
   padding-bottom: 6.5rem;
 }
 
+.stars {
+  display: none;
+}
+
 #my-form {
   display: flex;
   flex-direction: column;
@@ -122,21 +126,6 @@ fieldset legend {
   height: 4.8rem;
 }
 
-.input-wrapper input::placeholder {
-  position: absolute;
-  left: 4rem;
-  transform: translateY(80%);
-  font-size: 1.6rem;
-  color: #89869d;
-}
-
-.input-wrapper textarea::placeholder {
-  position: absolute;
-  top: 1rem;
-  font-size: 1.6rem;
-  padding-left: 1rem;
-}
-
 .input-wrapper input {
   margin-bottom: 2rem;
   padding-left: 4rem;
@@ -152,6 +141,22 @@ fieldset legend {
   color: #312D64;
   font-size: 1.6rem;
 }
+
+.input-wrapper input::placeholder {
+  position: absolute;
+  left: 4rem;
+  transform: translateY(80%);
+  font-size: 1.6rem;
+  color: #89869d;
+}
+
+.input-wrapper textarea::placeholder {
+  position: absolute;
+  top: 1rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
 
 .input-wrapper {
   position: relative;
@@ -223,7 +228,6 @@ footer {
     margin: 0.8rem 0 17.9rem;
   }
 
-
   .cards {
     display: flex;
     flex-direction: row;
@@ -254,4 +258,34 @@ footer {
     color: #312D64;
   }
 
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    height: 61.2rem;
+  }
+
+  #my-form {
+    margin-left: 10.9rem;
+  }
+
+  .stars {
+    display: block;
+  }
+
+  fieldset legend {
+    font-size: 4.2rem;
+    line-height: 5.3rem;
+    margin: 9.5rem 0 3.5rem;
+  }
+
+  .input-wrapper input,
+  .input-wrapper textarea {
+  max-width: 59.2rem;
+  width: 100vw;
+  height: 4.8rem;
+  }
+
+  .input-wrapper textarea {
+  height: 12.8rem;
+  }
 }
