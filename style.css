@@ -63,10 +63,6 @@ header .img-arrow {
   padding: 5rem 4rem;
 }
 
-.cards .card .container-card {
-  padding: 2.6rem 6rem 2.6rem 2.6rem;
-}
-
 .cards .card {
   background: #FFFFFF;
   max-width: 35.2rem;
@@ -74,7 +70,12 @@ header .img-arrow {
   border-radius: 2rem;
 }
 
+.cards .card .container-card {
+  padding: 2.6rem 6rem 2.6rem 2.6rem;
+}
+
 .card h2 {
+  font-weight: 900;
   font-size: 2.92rem;
   line-height: 3.7rem;
   color: #B52184;
@@ -82,6 +83,7 @@ header .img-arrow {
 }
 
 .card p {
+  font-weight: 600;
   font-size: 1.6rem;
   line-height: 2rem;
   color: #312D64;
@@ -219,6 +221,37 @@ footer {
     font-size: 3.2rem;
     line-height: 4rem;
     margin: 0.8rem 0 17.9rem;
+  }
+
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards .card {
+    background: #FFFFFF;
+    width: 36rem;
+    height: 44.8rem;
+    border-radius: 2rem;
+  }
+
+  .cards .card .container-card {
+    padding: 3.2rem 1.3rem 4.8rem 3.2rem;
+  }
+
+  .card h2 {
+    font-size: 3.53rem;
+    line-height: 4.4rem;
+    padding: 3.5rem 0 2.4rem;
+  }
+  
+  .card p {
+    font-size: 1.93rem;
+    line-height: 2.4rem;
+    color: #312D64;
   }
 
 }
