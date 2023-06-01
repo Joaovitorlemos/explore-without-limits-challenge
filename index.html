@@ -75,7 +75,7 @@
 
       <div class="contact">
 
-        <div id="my-form">
+        <form id="my-form">
           <fieldset>
   
             <div class="fieldset-wrapper">
@@ -103,20 +103,22 @@
               <div class="input-wrapper">
                 <textarea 
                   placeholder="Digite sua mensagem aqui..." 
-                  id="contact-message"></textarea>
+                  id="contact-message"
+                  required></textarea>
               </div>
               
               <button 
                 class="contact-button"
                 type="submit"
-                form="my-form">
+                form="my-form"
+                id="submit-button">
                 Enviar mensagem
               </button>
 
             </div>
   
           </fieldset>
-        </div>
+        </form>
 
       </div>
 
