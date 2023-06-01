@@ -22,7 +22,11 @@ header {
   padding-bottom: 9rem;
 }
 
-header .img-astronaut{
+.header-img-desktop {
+  display: none;
+}
+
+header .img-astronaut-mobile {
   margin-bottom: 1.7rem;
   max-width: 37rem;
   width: 100%;
@@ -185,4 +189,36 @@ footer {
 
 .footer p {
   padding: 3.2rem 0;
+}
+
+@media (min-width: 1440px) {
+
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 2.8rem;
+    height: 83.6rem;
+  }
+
+  .header-img-mobile {
+    display: none;
+  }
+
+  .header-img-desktop {
+    display: block;
+  }
+
+  .title h1 {
+    font-size: 5.8rem;
+    line-height: 7.3rem;
+    margin-top: 31.2rem;
+  }
+
+  header .text {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin: 0.8rem 0 17.9rem;
+  }
+
 }
