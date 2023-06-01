@@ -11,7 +11,6 @@
 body {
   font-family: 'Mulish', sans-serif;
   font-size: 1.6rem;
-  
   background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
 }
 
@@ -47,7 +46,6 @@ header .img-arrow {
   border-radius: 76rem;
   width: 5.8rem;
   height: 10.5rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +56,6 @@ header .img-arrow {
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-
   padding: 5rem 4rem;
 }
 
@@ -68,11 +65,9 @@ header .img-arrow {
 
 .cards .card {
   background: #FFFFFF;
-
   max-width: 35.2rem;
   height: 100%;
   border-radius: 2rem;
-
 }
 
 .card h2 {
@@ -99,10 +94,6 @@ header .img-arrow {
   align-items: center;
 }
 
-.fieldset-wrapepr {
-  padding: 0 4rem 6.5rem;
-}
-
 fieldset {
   border: none;
 }
@@ -120,7 +111,6 @@ fieldset legend {
 .input-wrapper textarea {
   border-radius: 1.6rem;
   border: 1.5px solid #312D64;
-
   max-width: 34.8rem;
   width: 100vw;
   height: 4.8rem;
@@ -143,11 +133,31 @@ fieldset legend {
 
 .input-wrapper input {
   margin-bottom: 2rem;
+  padding-left: 4rem;
+  color: #312D64;
+  font-size: 1.6rem;
 }
 
 .input-wrapper textarea {
   height: 12.8rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  color: #312D64;
+  font-size: 1.6rem;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-100%);
+  width: 1.95rem;
+  height: 2.1rem;
 }
 
 .contact-button {
@@ -175,30 +185,4 @@ footer {
 
 .footer p {
   padding: 3.2rem 0;
-}
-
-.input-wrapper {
-  position: relative;
-}
-
-.input-icon {
-  position: absolute;
-  top: 50%;
-  left: 1rem;
-  transform: translateY(-100%);
-  width: 1.95rem;
-  height: 2.1rem;
-}
-
-.input-wrapper input {
-  padding-left: 4rem;
-  color: #312D64;
-  font-size: 1.6rem;
-}
-
-.input-wrapper textarea {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  color: #312D64;
-  font-size: 1.6rem;
 }
