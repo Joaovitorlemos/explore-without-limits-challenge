@@ -145,7 +145,6 @@ fieldset legend {
 .input-wrapper input::placeholder {
   position: absolute;
   left: 4rem;
-  transform: translateY(80%);
   font-size: 1.6rem;
   color: #89869d;
 }
@@ -280,12 +279,12 @@ footer {
 
   .input-wrapper input,
   .input-wrapper textarea {
-  max-width: 59.2rem;
-  width: 100vw;
-  height: 4.8rem;
+    max-width: 59.2rem;
+    width: 100vw;
+    height: 4.8rem;
   }
 
   .input-wrapper textarea {
-  height: 12.8rem;
+    height: 12.8rem;
   }
 }
