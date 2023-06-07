@@ -177,6 +177,10 @@ fieldset legend {
   padding: 1.1rem 1.6rem;
 }
 
+.contact-button:hover {
+  background: linear-gradient(96.21deg, #2f2c72 0%, #4841a7 99.68%);;
+}
+
 footer {
   font-style: normal;
   font-weight: 600;
